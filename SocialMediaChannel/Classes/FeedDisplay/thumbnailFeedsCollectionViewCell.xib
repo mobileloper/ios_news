@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="calibri_0.ttf">
+            <string>Calibri</string>
+            <string>Calibri</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="thumbCell" id="gTV-IL-0wX" customClass="thumbnailFeedsCollectionViewCell" customModule="SocialMediaChannel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="240"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="240"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xbS-zv-Xfn">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="150"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="dgG-Xm-uBd"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rz5-ip-yiP">
+                        <rect key="frame" x="49" y="37" width="62" height="62"/>
+                        <animations/>
+                        <state key="normal" image="ic-Play-Transparent">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="ic-Play-Transparent"/>
+                        <state key="highlighted" image="ic-Play-Transparent"/>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-tag-new" translatesAutoresizingMaskIntoConstraints="NO" id="xoa-6d-own">
+                        <rect key="frame" x="0.0" y="13" width="54" height="25"/>
+                        <animations/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BT6-bl-hdX">
+                        <rect key="frame" x="70" y="104" width="36" height="36"/>
+                        <animations/>
+                        <state key="normal" image="ic_ShareFeed">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="ic_ShareFeed"/>
+                        <state key="highlighted" image="ic_ShareFeed"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzZ-bc-17n">
+                        <rect key="frame" x="114" y="104" width="36" height="36"/>
+                        <animations/>
+                        <state key="normal" image="ic-Fav">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="ic-Fav-Selected"/>
+                        <state key="highlighted" image="ic-Fav-Selected"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3T-Wa-6Ic">
+                        <rect key="frame" x="0.0" y="150" width="160" height="90"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Kalici Ruj Ve Allik Yapimi 2 " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="145" translatesAutoresizingMaskIntoConstraints="NO" id="BfZ-Tu-BpS">
+                                <rect key="frame" x="13" y="10" width="145" height="40"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 days ago" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="294" translatesAutoresizingMaskIntoConstraints="NO" id="0lO-ma-ngM">
+                                <rect key="frame" x="13" y="54" width="145" height="16"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="16"/>
+                                <color key="textColor" red="0.55294117649999996" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0lO-ma-ngM" secondAttribute="bottom" id="3gK-KF-mNa"/>
+                            <constraint firstItem="BfZ-Tu-BpS" firstAttribute="top" secondItem="s3T-Wa-6Ic" secondAttribute="top" constant="10" id="Jta-co-aVr"/>
+                            <constraint firstAttribute="trailing" secondItem="BfZ-Tu-BpS" secondAttribute="trailing" constant="2" id="WKF-O7-bBJ"/>
+                            <constraint firstItem="BfZ-Tu-BpS" firstAttribute="leading" secondItem="s3T-Wa-6Ic" secondAttribute="leading" constant="13" id="YSw-aG-0ql"/>
+                            <constraint firstAttribute="trailing" secondItem="0lO-ma-ngM" secondAttribute="trailing" constant="2" id="nHt-m6-rKb"/>
+                            <constraint firstItem="0lO-ma-ngM" firstAttribute="leading" secondItem="s3T-Wa-6Ic" secondAttribute="leading" constant="13" id="vWN-tB-B8u"/>
+                            <constraint firstItem="0lO-ma-ngM" firstAttribute="top" secondItem="BfZ-Tu-BpS" secondAttribute="bottom" constant="4" id="vcd-yn-Kcw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstItem="FzZ-bc-17n" firstAttribute="leading" secondItem="BT6-bl-hdX" secondAttribute="trailing" constant="8" id="20i-W5-viO"/>
+                <constraint firstItem="xbS-zv-Xfn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3i9-DQ-TdH"/>
+                <constraint firstItem="rz5-ip-yiP" firstAttribute="centerX" secondItem="xbS-zv-Xfn" secondAttribute="centerX" id="6Fk-6I-07q"/>
+                <constraint firstItem="xoa-6d-own" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="9d8-ef-2qf"/>
+                <constraint firstItem="xbS-zv-Xfn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9fU-Ws-M4i"/>
+                <constraint firstItem="s3T-Wa-6Ic" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Aa8-nj-yeB"/>
+                <constraint firstItem="s3T-Wa-6Ic" firstAttribute="top" secondItem="BT6-bl-hdX" secondAttribute="bottom" constant="10" id="IzC-YW-Fyo"/>
+                <constraint firstAttribute="trailing" secondItem="xbS-zv-Xfn" secondAttribute="trailing" id="Nr7-Rs-axq"/>
+                <constraint firstItem="s3T-Wa-6Ic" firstAttribute="top" secondItem="FzZ-bc-17n" secondAttribute="bottom" constant="10" id="Z7a-gO-QDz"/>
+                <constraint firstItem="xoa-6d-own" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Z81-Dc-Qhc"/>
+                <constraint firstAttribute="bottom" secondItem="s3T-Wa-6Ic" secondAttribute="bottom" id="ZwQ-59-1Vo"/>
+                <constraint firstItem="rz5-ip-yiP" firstAttribute="centerY" secondItem="xbS-zv-Xfn" secondAttribute="centerY" constant="-7" id="a0a-2U-AVH"/>
+                <constraint firstAttribute="trailing" secondItem="FzZ-bc-17n" secondAttribute="trailing" constant="10" id="kmA-gr-P41"/>
+                <constraint firstItem="s3T-Wa-6Ic" firstAttribute="top" secondItem="xbS-zv-Xfn" secondAttribute="bottom" id="ojW-6E-Nsv"/>
+                <constraint firstAttribute="trailing" secondItem="s3T-Wa-6Ic" secondAttribute="trailing" id="rnO-PM-3z3"/>
+            </constraints>
+            <connections>
+                <outlet property="favoriteBtn" destination="FzZ-bc-17n" id="mlh-Oc-xNR"/>
+                <outlet property="feedImage" destination="xbS-zv-Xfn" id="0vD-pS-sEI"/>
+                <outlet property="headingText" destination="BfZ-Tu-BpS" id="DyS-z1-yMr"/>
+                <outlet property="newFlag" destination="xoa-6d-own" id="Svu-hz-hjn"/>
+                <outlet property="playBtn" destination="rz5-ip-yiP" id="7LJ-IT-Npx"/>
+                <outlet property="shareImage" destination="BT6-bl-hdX" id="6b5-K9-tYr"/>
+                <outlet property="timeText" destination="0lO-ma-ngM" id="6vd-nh-kvx"/>
+            </connections>
+            <point key="canvasLocation" x="473" y="447"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic-Fav" width="36" height="36"/>
+        <image name="ic-Fav-Selected" width="36" height="36"/>
+        <image name="ic-Play-Transparent" width="62" height="62"/>
+        <image name="ic-tag-new" width="54" height="25"/>
+        <image name="ic_ShareFeed" width="36" height="36"/>
+    </resources>
+</document>

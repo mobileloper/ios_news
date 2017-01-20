@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController" customModule="SocialMediaChannel" customModuleProvider="target">
+            <connections>
+                <outlet property="tbl_Settings" destination="YHr-ce-1jJ" id="rao-am-7da"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="35" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="YHr-ce-1jJ">
+                    <rect key="frame" x="0.0" y="35" width="320" height="533"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="nvx-KJ-75N"/>
+                        <outlet property="delegate" destination="-1" id="3np-oP-p2L"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="YHr-ce-1jJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="S2l-td-U9J"/>
+                <constraint firstAttribute="bottom" secondItem="YHr-ce-1jJ" secondAttribute="bottom" id="Zxx-Iu-F0b"/>
+                <constraint firstItem="YHr-ce-1jJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="35" id="lZa-hb-jPi"/>
+                <constraint firstAttribute="trailing" secondItem="YHr-ce-1jJ" secondAttribute="trailing" id="m4M-uL-kzo"/>
+            </constraints>
+            <point key="canvasLocation" x="505" y="421"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="calibrib_0.ttf">
+            <string>Calibri-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SortScreenView" customModule="SocialMediaChannel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fa5-yf-Q7x">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="25J-fQ-iZA" appends="YES" id="Vgz-x3-aRa"/>
+                    </connections>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Mj-36-JAz">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DyS-dY-oki">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v7b-Cj-G6x">
+                                    <rect key="frame" x="0.0" y="28" width="320" height="2"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="0.82745098039215681" green="0.82745098039215681" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="i38-zf-PXv"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SORT BY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="Puw-to-2wD">
+                                    <rect key="frame" x="20" y="8" width="49" height="14"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="14"/>
+                                    <color key="textColor" red="0.43137254901960786" green="0.43137254901960786" blue="0.43137254901960786" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="Puw-to-2wD" firstAttribute="leading" secondItem="DyS-dY-oki" secondAttribute="leading" constant="20" id="4gE-9y-c1b"/>
+                                <constraint firstAttribute="centerY" secondItem="Puw-to-2wD" secondAttribute="centerY" constant="0.5" id="4qV-Go-KWH"/>
+                                <constraint firstAttribute="height" constant="30" id="NZW-zv-ywl"/>
+                                <constraint firstItem="v7b-Cj-G6x" firstAttribute="leading" secondItem="DyS-dY-oki" secondAttribute="leading" id="SaE-DQ-yXE"/>
+                                <constraint firstAttribute="trailing" secondItem="v7b-Cj-G6x" secondAttribute="trailing" id="fxD-gj-Cte"/>
+                                <constraint firstAttribute="bottom" secondItem="v7b-Cj-G6x" secondAttribute="bottom" id="h8o-wv-XEG"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="DyS-dY-oki" firstAttribute="leading" secondItem="8Mj-36-JAz" secondAttribute="leading" id="BnW-RW-ln5"/>
+                        <constraint firstItem="DyS-dY-oki" firstAttribute="top" secondItem="8Mj-36-JAz" secondAttribute="top" id="IDD-8m-3Py"/>
+                        <constraint firstAttribute="trailing" secondItem="DyS-dY-oki" secondAttribute="trailing" id="T4X-lk-EtK"/>
+                        <constraint firstAttribute="height" constant="45" id="ZrT-WP-Hqa"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="uEh-BJ-4BI">
+                    <rect key="frame" x="0.0" y="30" width="320" height="132"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="132" id="nLS-o2-AGS"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="zTb-aT-Z6t"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="LPU-aj-rwF"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uEh-BJ-4BI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="Dgy-ds-Ple"/>
+                <constraint firstItem="Fa5-yf-Q7x" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Htn-m8-6Zr"/>
+                <constraint firstItem="Fa5-yf-Q7x" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IAZ-yr-vjq"/>
+                <constraint firstAttribute="trailing" secondItem="Fa5-yf-Q7x" secondAttribute="trailing" id="JtN-Sv-6L6"/>
+                <constraint firstItem="8Mj-36-JAz" firstAttribute="leading" secondItem="uEh-BJ-4BI" secondAttribute="leading" id="MPT-UD-Q4g"/>
+                <constraint firstItem="uEh-BJ-4BI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Mda-6Q-Efm"/>
+                <constraint firstItem="8Mj-36-JAz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Y35-WW-NH2"/>
+                <constraint firstAttribute="trailing" secondItem="uEh-BJ-4BI" secondAttribute="trailing" id="Ydw-gt-UHG"/>
+                <constraint firstAttribute="bottom" secondItem="Fa5-yf-Q7x" secondAttribute="bottom" id="aiu-Yb-N60"/>
+                <constraint firstAttribute="trailing" secondItem="8Mj-36-JAz" secondAttribute="trailing" id="qfS-Sk-N0r"/>
+            </constraints>
+            <connections>
+                <outlet property="sortByLabel" destination="Puw-to-2wD" id="YYj-Xu-bsn"/>
+                <outlet property="tbl_Feeds" destination="uEh-BJ-4BI" id="D7d-fl-88d"/>
+                <outlet property="transparentColor" destination="Fa5-yf-Q7x" id="hiJ-Wo-dnq"/>
+            </connections>
+            <point key="canvasLocation" x="503" y="447"/>
+        </view>
+        <tapGestureRecognizer id="25J-fQ-iZA">
+            <connections>
+                <action selector="Tapped:" destination="iN0-l3-epB" id="NZn-DG-3az"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

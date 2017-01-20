@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="calibri_0.ttf">
+            <string>Calibri</string>
+            <string>Calibri</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="otherMediaCell" rowHeight="370" id="LMV-au-yLM" customClass="OthersFeedImageTypeCell" customModule="SocialMediaChannel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LMV-au-yLM" id="07J-WV-c4j">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="369.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="2 days ago" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="qpt-XZ-QfS">
+                        <rect key="frame" x="15" y="324" width="68" height="16"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="16"/>
+                        <color key="textColor" red="0.55294117649999996" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xY6-ha-4no">
+                        <rect key="frame" x="1" y="126" width="318" height="180"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="yIc-O3-FVy"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkk-P4-Kvz">
+                        <rect key="frame" x="230" y="314" width="36" height="36"/>
+                        <animations/>
+                        <state key="normal" image="ic_ShareFeed">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="ic_ShareFeed"/>
+                        <state key="highlighted" image="ic_ShareFeed"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hen-AJ-w7C">
+                        <rect key="frame" x="274" y="314" width="36" height="36"/>
+                        <animations/>
+                        <state key="normal" image="ic-Fav">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="ic-Fav-Selected"/>
+                        <state key="highlighted" image="ic-Fav-Selected"/>
+                    </button>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vx2-Iv-Vrn">
+                        <rect key="frame" x="15" y="1" width="290" height="116"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="116" id="uYM-4e-YAO"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="20"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                    </textView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-Play-Trans" translatesAutoresizingMaskIntoConstraints="NO" id="fIw-vc-AHf">
+                        <rect key="frame" x="129" y="185" width="62" height="62"/>
+                        <animations/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="tCm-wV-vKq">
+                        <rect key="frame" x="0.0" y="358" width="320" height="11"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="11" id="2xC-TQ-k6h"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-tag-new" translatesAutoresizingMaskIntoConstraints="NO" id="yeP-Y5-ELP">
+                        <rect key="frame" x="1" y="126" width="54" height="25"/>
+                        <animations/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="psM-KO-Dhy">
+                        <rect key="frame" x="0.0" y="358.5" width="320" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="eVI-VZ-hmY"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="xkk-P4-Kvz" secondAttribute="bottom" constant="11.5" id="4g6-Ri-3IG"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Vx2-Iv-Vrn" secondAttribute="bottom" constant="244.5" id="4qZ-Eo-IG9"/>
+                    <constraint firstItem="fIw-vc-AHf" firstAttribute="centerY" secondItem="xY6-ha-4no" secondAttribute="centerY" id="Dd9-gX-92b"/>
+                    <constraint firstItem="yeP-Y5-ELP" firstAttribute="top" secondItem="xY6-ha-4no" secondAttribute="top" id="E0V-Jz-rzy"/>
+                    <constraint firstItem="xY6-ha-4no" firstAttribute="leading" secondItem="07J-WV-c4j" secondAttribute="leading" constant="1" id="F2F-ut-Gux"/>
+                    <constraint firstItem="Vx2-Iv-Vrn" firstAttribute="leading" secondItem="07J-WV-c4j" secondAttribute="leadingMargin" constant="7" id="FlV-T2-aSK"/>
+                    <constraint firstItem="qpt-XZ-QfS" firstAttribute="leading" secondItem="07J-WV-c4j" secondAttribute="leadingMargin" constant="7" id="IzV-oA-r9M"/>
+                    <constraint firstItem="psM-KO-Dhy" firstAttribute="leading" secondItem="tCm-wV-vKq" secondAttribute="leading" id="NUd-Yz-Zl9"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="hen-AJ-w7C" secondAttribute="bottom" constant="11.5" id="SAp-jZ-WuN"/>
+                    <constraint firstItem="fIw-vc-AHf" firstAttribute="centerX" secondItem="xY6-ha-4no" secondAttribute="centerX" id="T7J-Ly-3zJ"/>
+                    <constraint firstItem="yeP-Y5-ELP" firstAttribute="leading" secondItem="xY6-ha-4no" secondAttribute="leading" id="TPM-7X-Adq"/>
+                    <constraint firstItem="xY6-ha-4no" firstAttribute="top" secondItem="Vx2-Iv-Vrn" secondAttribute="bottom" constant="11" id="Ymx-G4-BUo"/>
+                    <constraint firstItem="xkk-P4-Kvz" firstAttribute="top" secondItem="Vx2-Iv-Vrn" secondAttribute="bottom" constant="2" id="dWy-IA-n98"/>
+                    <constraint firstAttribute="trailing" secondItem="xY6-ha-4no" secondAttribute="trailing" constant="1" id="fco-Hr-VJd"/>
+                    <constraint firstItem="hen-AJ-w7C" firstAttribute="top" secondItem="Vx2-Iv-Vrn" secondAttribute="bottom" constant="2" id="ikq-cw-3qs"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xkk-P4-Kvz" secondAttribute="trailing" constant="46" id="jfl-bj-gBy"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="xY6-ha-4no" secondAttribute="bottom" constant="55.5" id="ksg-9y-aI4"/>
+                    <constraint firstItem="yeP-Y5-ELP" firstAttribute="top" secondItem="Vx2-Iv-Vrn" secondAttribute="bottom" constant="11" id="mIQ-e9-Xk0"/>
+                    <constraint firstItem="tCm-wV-vKq" firstAttribute="leading" secondItem="07J-WV-c4j" secondAttribute="leading" id="mPa-JM-57N"/>
+                    <constraint firstItem="xY6-ha-4no" firstAttribute="top" secondItem="Vx2-Iv-Vrn" secondAttribute="bottom" id="oJf-yv-Ee1"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Vx2-Iv-Vrn" secondAttribute="trailing" constant="7" id="pHs-Tj-isH"/>
+                    <constraint firstAttribute="trailing" secondItem="tCm-wV-vKq" secondAttribute="trailing" id="pPe-W6-7aN"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="qpt-XZ-QfS" secondAttribute="bottom" constant="21.5" id="qba-lx-ekU"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hen-AJ-w7C" secondAttribute="trailing" constant="2" id="rEm-NG-Yn5"/>
+                    <constraint firstItem="psM-KO-Dhy" firstAttribute="top" secondItem="tCm-wV-vKq" secondAttribute="top" id="tzr-xt-Z47"/>
+                    <constraint firstItem="Vx2-Iv-Vrn" firstAttribute="top" secondItem="07J-WV-c4j" secondAttribute="topMargin" constant="-7" id="uEy-6e-dOd"/>
+                    <constraint firstItem="psM-KO-Dhy" firstAttribute="trailing" secondItem="tCm-wV-vKq" secondAttribute="trailing" id="wn0-kH-eYd"/>
+                    <constraint firstAttribute="bottom" secondItem="tCm-wV-vKq" secondAttribute="bottom" id="xdk-4Q-SmW"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Ymx-G4-BUo"/>
+                        <exclude reference="oJf-yv-Ee1"/>
+                        <exclude reference="mIQ-e9-Xk0"/>
+                        <exclude reference="dWy-IA-n98"/>
+                        <exclude reference="ikq-cw-3qs"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="favoriteBtn" destination="hen-AJ-w7C" id="nEf-Jh-gKK"/>
+                <outlet property="feedImage" destination="xY6-ha-4no" id="ryz-Gt-dqg"/>
+                <outlet property="heightConstraint" destination="uYM-4e-YAO" id="wqT-cg-Bfn"/>
+                <outlet property="newFlag" destination="yeP-Y5-ELP" id="TDV-VS-fNu"/>
+                <outlet property="playImage" destination="fIw-vc-AHf" id="7o3-VI-VHH"/>
+                <outlet property="shareBtn" destination="xkk-P4-Kvz" id="2QE-ON-FvF"/>
+                <outlet property="timeText" destination="qpt-XZ-QfS" id="4l9-Vn-D5w"/>
+                <outlet property="txtView" destination="Vx2-Iv-Vrn" id="QcI-PF-HON"/>
+            </connections>
+            <point key="canvasLocation" x="471" y="532"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic-Fav" width="36" height="36"/>
+        <image name="ic-Fav-Selected" width="36" height="36"/>
+        <image name="ic-Play-Trans" width="62" height="62"/>
+        <image name="ic-tag-new" width="54" height="25"/>
+        <image name="ic_ShareFeed" width="36" height="36"/>
+        <image name="shadow" width="375" height="6"/>
+    </resources>
+</document>

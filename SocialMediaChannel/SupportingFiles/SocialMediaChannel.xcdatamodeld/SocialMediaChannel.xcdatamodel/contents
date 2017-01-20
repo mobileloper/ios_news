@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="15A284" minimumToolsVersion="Xcode 4.3">
+    <entity name="Feed" representedClassName="SocialMediaChannel.FeedClass" syncable="YES">
+        <attribute name="createdTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="feed_Id" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="feedType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFeed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isFavoriteNew" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isNew" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="linkFeed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="socialFeed_Id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="socialMediaType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleFeed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoFeed" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Feed" positionX="-54" positionY="-9" width="128" height="268"/>
+    </elements>
+</model>

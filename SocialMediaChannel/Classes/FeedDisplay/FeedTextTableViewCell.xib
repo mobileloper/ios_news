@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="calibri_0.ttf">
+            <string>Calibri</string>
+            <string>Calibri</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="otherTextCell" rowHeight="133" id="KGk-i7-Jjw" customClass="FeedTextTableViewCell" customModule="SocialMediaChannel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="152.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-tag-new" translatesAutoresizingMaskIntoConstraints="NO" id="UOb-jd-5fU">
+                        <rect key="frame" x="0.0" y="0.0" width="54" height="25"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duN-sV-LlI">
+                        <rect key="frame" x="15" y="26" width="290" height="93"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="93" id="Ioe-yZ-mga"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="20"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="2 days ago" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="w1E-aV-7kO">
+                        <rect key="frame" x="20" y="107" width="68" height="16"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="16"/>
+                        <color key="textColor" red="0.55294117649999996" green="0.55294117649999996" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="oaH-E0-aUx">
+                        <rect key="frame" x="0.0" y="141" width="320" height="11"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="11" id="mEi-d9-VgU"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zIk-TS-Mgd">
+                        <rect key="frame" x="0.0" y="141.5" width="320" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="oPF-E9-MR2"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBK-vY-ot2">
+                        <rect key="frame" x="230" y="97" width="36" height="36"/>
+                        <animations/>
+                        <state key="normal" image="ic_ShareFeed">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="ic_ShareFeed"/>
+                        <state key="highlighted" image="ic_ShareFeed"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFc-yy-61e">
+                        <rect key="frame" x="274" y="97" width="36" height="36"/>
+                        <animations/>
+                        <state key="normal" image="ic-Fav">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="ic-Fav-Selected"/>
+                        <state key="highlighted" image="ic-Fav-Selected"/>
+                    </button>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="IBK-vY-ot2" secondAttribute="bottom" constant="11.5" id="0K6-ZM-HTy"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="duN-sV-LlI" secondAttribute="bottom" constant="25.5" id="1OV-pT-vka"/>
+                    <constraint firstItem="UOb-jd-5fU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5xv-qc-NTY"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="IBK-vY-ot2" secondAttribute="trailing" constant="46" id="6Rf-ZG-M1d"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="sFc-yy-61e" secondAttribute="trailing" constant="2" id="6Rm-Eg-Z24"/>
+                    <constraint firstItem="UOb-jd-5fU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9qO-1V-FzR"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="w1E-aV-7kO" secondAttribute="bottom" constant="21.5" id="VzS-F0-qFo"/>
+                    <constraint firstAttribute="bottom" secondItem="oaH-E0-aUx" secondAttribute="bottom" id="a3L-Ye-inQ"/>
+                    <constraint firstItem="w1E-aV-7kO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="b6D-Vw-vTX"/>
+                    <constraint firstAttribute="trailing" secondItem="oaH-E0-aUx" secondAttribute="trailing" id="eSu-qy-odu"/>
+                    <constraint firstItem="duN-sV-LlI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="hOr-s0-9gF"/>
+                    <constraint firstItem="duN-sV-LlI" firstAttribute="top" secondItem="UOb-jd-5fU" secondAttribute="bottom" constant="1" id="hta-b5-R5N"/>
+                    <constraint firstAttribute="trailing" secondItem="zIk-TS-Mgd" secondAttribute="trailing" id="k0G-ss-fHp"/>
+                    <constraint firstAttribute="trailing" secondItem="duN-sV-LlI" secondAttribute="trailing" constant="15" id="l38-I6-eeH"/>
+                    <constraint firstItem="oaH-E0-aUx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tcA-kt-0ZN"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sFc-yy-61e" secondAttribute="bottom" constant="11.5" id="vdA-Ik-awK"/>
+                    <constraint firstItem="zIk-TS-Mgd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xJX-OP-Y5u"/>
+                    <constraint firstItem="zIk-TS-Mgd" firstAttribute="top" secondItem="oaH-E0-aUx" secondAttribute="top" id="zYK-tL-Te3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="favoriteBtn" destination="sFc-yy-61e" id="yJv-Xn-XXD"/>
+                <outlet property="heightConstraint" destination="Ioe-yZ-mga" id="lms-2h-QPZ"/>
+                <outlet property="newBtnTopConstraint" destination="9qO-1V-FzR" id="Htp-xD-ZMN"/>
+                <outlet property="newFlag" destination="UOb-jd-5fU" id="TLW-oi-HEp"/>
+                <outlet property="shareBtn" destination="IBK-vY-ot2" id="YCb-mQ-0Z9"/>
+                <outlet property="timeText" destination="w1E-aV-7kO" id="5Es-gA-rhn"/>
+                <outlet property="txtView" destination="duN-sV-LlI" id="Ewq-yq-OKl"/>
+            </connections>
+            <point key="canvasLocation" x="468" y="540.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic-Fav" width="36" height="36"/>
+        <image name="ic-Fav-Selected" width="36" height="36"/>
+        <image name="ic-tag-new" width="54" height="25"/>
+        <image name="ic_ShareFeed" width="36" height="36"/>
+        <image name="shadow" width="375" height="6"/>
+    </resources>
+</document>

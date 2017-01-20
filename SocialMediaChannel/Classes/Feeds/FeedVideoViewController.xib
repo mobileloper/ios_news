@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9059"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FeedVideoViewController" customModule="SocialMediaChannel" customModuleProvider="target">
+            <connections>
+                <outlet property="playerView" destination="cDh-w3-wda" id="JY6-Lu-YjC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cDh-w3-wda" customClass="YTPlayerView">
+                    <rect key="frame" x="0.0" y="134" width="320" height="300"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="MtF-k0-Wkc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cDh-w3-wda" secondAttribute="trailing" id="3fv-fo-YHg"/>
+                <constraint firstItem="cDh-w3-wda" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Inn-LT-zmG"/>
+                <constraint firstAttribute="centerY" secondItem="cDh-w3-wda" secondAttribute="centerY" id="lBv-PL-TD0"/>
+            </constraints>
+            <point key="canvasLocation" x="540" y="433"/>
+        </view>
+    </objects>
+</document>

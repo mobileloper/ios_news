@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2CCC5DAA-6B1B-4081-B1D4-C9DA0C28A3B7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SocialMediaChannel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C4554A123C586B42E6A8D3646B906A6299E0020F</key>
+		<string>http://gitlab.finoit.com/social-media-channel-app/social-media-ios-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SocialMediaChannel.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C4554A123C586B42E6A8D3646B906A6299E0020F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://gitlab.finoit.com/social-media-channel-app/social-media-ios-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C4554A123C586B42E6A8D3646B906A6299E0020F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4554A123C586B42E6A8D3646B906A6299E0020F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>social-media-ios-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

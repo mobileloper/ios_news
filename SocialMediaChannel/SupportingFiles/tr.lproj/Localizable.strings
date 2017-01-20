@@ -1,0 +1,55 @@
+/* 
+  info.strings
+  SocialMediaChannel
+
+  Created by Finoit on 19/10/15.
+  Copyright © 2015 Mohit Jethwa. All rights reserved.
+*/
+
+"New" = "Yeni";
+"All Feeds" = "Tüm Bildirimler";
+"hrs ago" = "saat önce";
+"minutes ago" = "dk önce";
+"days ago" = "gün önce";
+"months ago" = "ay önce";
+"years ago" = "yıl önce";
+"Last year" = "Bir yıl önce";
+
+"Settings" = "Ayarlar";
+"Notification" = "Bildirim Uyarısı";
+"Default Opening Tab" = "Açılış Sayfası";
+
+
+"Sebi Bebi shared a video" = "Sebi Bebi yeni bir video paylaştı";
+"Sebi Bebi posted a status update" = "Sebi Bebi durumunu güncelledi";
+"Sebi Bebi shared a page" = "Sebi Bebi yeni bir link paylaştı";
+
+"Sebi Bebi posted a status update" = "Sebi Bebi yeni bir paylaşımda bulundu";
+
+
+"Youtube-feeds" = "YouTube";    
+"YouTube Search" = "Video ara";
+
+"Blog-feeds" = "Blog";
+"Sebi Bebi shared a post" = "Sebi Bebi yeni bir blog yazısı yayınladı";
+
+
+"Instagram-feeds" = "Instagram";
+"Sebi Bebi uploaded a image" = "Sebi Bebi yeni bir imaj paylaştı";
+
+"Twitter-feeds" = "Twitter";
+"Facebook-feeds" = "Facebook";
+
+"Favorites" = "Favorilerim";
+"Sort By" = "Sırala";
+"Date" = "Tarihe göre";
+"Name" = "İsme göre";
+"Channel" = "Türüne göre";
+
+"just now" = "şu anda";
+"yesterday" = "dün";
+"last week" = "geçen hafta";
+"last month" = "geçen ay";
+"last year" = "geçen sene";
+"ic-tag-new" = "ic-tag-yeni";
+"No Favorties feeds founds" = "Favoriniz bulunmamaktadır";
